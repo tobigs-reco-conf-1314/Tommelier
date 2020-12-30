@@ -1,8 +1,8 @@
-.pkl
-.pickle
-.csv
-.xlsx
-.pdf
-.pptx
-.DS_Store
-
+*.pkl
+*.xlsx
+*.pdf
+*.csv
+*.pickle
+*.pptx
+*.json
+*.zip
