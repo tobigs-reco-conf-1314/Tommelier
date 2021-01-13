@@ -46,7 +46,19 @@
 
 ## 1. 데이터
 
-## 2. 결과
+어쩌구저쩌구
+비비노 어쩌구
+어쩌구
+
+## 2. 모델
+
+  - [Neural MF](https://arxiv.org/pdf/1708.05031.pdf)
+  - [DeepFM]()
+  - [DCN](https://arxiv.org/pdf/2008.13535.pdf)
+  - [GCN]()
+
+
+## 3. 결과
 
 |Model|Hyper Params|Epochs|Roc|Acc|담당자|
 |-----|--------|---|---|---|---|
@@ -58,8 +70,9 @@
 |   |     |     |     |     |     |
 
 
+## 4. 웹
 
-## 3. 웹
 
-## 4. Contributors
+
+## 5. Contributors
 
