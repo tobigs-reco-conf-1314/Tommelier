@@ -13,9 +13,9 @@
 ```python
 투믈리에
 ├── README.md
-├── Preprocessing
+├── Preprocess
 │   ├───crawling.py
-│   └───preprocessing.py
+│   └───preprocess.py
 │   
 ├── Data
 │   ├───
