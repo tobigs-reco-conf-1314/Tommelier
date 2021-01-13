@@ -26,7 +26,7 @@ import tensorflow_datasets as tfds
 
 class model(tfrs.Model):
     
-    def __init__(self, use_cross_layer, deep_layer_sizes, learning_rate, str_features, int_features, vocabularies, projection_dim = None, metric = 'binary'):
+    def __init__(self, cross_layer_sizes, deep_layer_sizes, learning_rate, str_features, int_features, vocabularies, projection_dim = None, metric = 'binary'):
         super().__init__()
     
         self.embedding_dimension = 64
@@ -55,20 +55,30 @@ class model(tfrs.Model):
                     self.embedding_dimension)
                                          ])
     
-        if use_cross_layer:
-            self._cross_layer = tfrs.layers.dcn.Cross(
+#         if use_cross_layer:
+#             self._cross_layer = tfrs.layers.dcn.Cross(
+#                 projection_dim = projection_dim,
+#                 kernel_initializer = "glorot_uniform")
+#         else:
+#             self._cross_layer = None
+        
+        # Cross layer
+        if cross_layer_sizes:
+            self._cross_layer = [tfrs.layers.dcn.Cross(
                 projection_dim = projection_dim,
-                kernel_initializer = "glorot_uniform")
+                kernel_initializer = "glorot_uniform") for _ in range(cross_layer_sizes)]
         else:
             self._cross_layer = None
-    
+            
+        # Deep layer
         self._deep_layers = [tf.keras.layers.Dense(layer_size, activation="relu")
             for layer_size in deep_layer_sizes]
-    
+        
+        # Output layer
         self._logit_layer = tf.keras.layers.Dense(1,
                                                   activation = 'sigmoid'
                                                   )
-    
+        # Metric
         if metric == 'binary':
             self.task = tfrs.tasks.Ranking(
             loss = tf.keras.losses.BinaryCrossentropy(),
@@ -97,8 +107,10 @@ class model(tfrs.Model):
         x = tf.concat(embeddings, axis=1)
     
         # Build Cross Network
-        if self._cross_layer is not None:
-            x = self._cross_layer(x)
+#         if self._cross_layer is not None:
+#             x = self._cross_layer(x)
+        for cross_layer in self._cross_layer:
+            x = cross_layer(x)
         
         # Build Deep Network
         for deep_layer in self._deep_layers:
