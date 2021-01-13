@@ -8,7 +8,7 @@
 
 ---------
 
-## 0. 파일구조
+## 0. 저장소 구조
 
 ```python
 투믈리에
@@ -24,7 +24,7 @@
 │   └───
 │   
 ├── Models
-│   ├───NMF.py
+│   ├───NeuralMF.py
 │   ├───DCN.py
 │   └───GCN.py
 │   
@@ -33,5 +33,25 @@
 │   ├──DCN_main.ipynb
 │   ├──DeepFM_main.ipynb
 │   └──GCN_main.ipynb
-
+│
+├── Params
+│   ├───NeuralMF
+│   │    └───
+│   ├───DCN
+│   │    ├──vocabularies.json
+│   │    └──DCN_weights.tf
+│   ├───DeepFM
+│   │    ├──
+│   │    └──
 ```
+
+## 1. 데이터
+
+## 2. 실행
+
+## 3. 결과
+
+## 4. 웹
+
+## 5. Contributors
+
