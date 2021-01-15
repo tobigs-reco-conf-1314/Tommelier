@@ -1,5 +1,7 @@
 # Wine App + Recommendation API
 
+> React App (Typescript) + Fastapi (Python 3.7)
+
 ## 0. Prerequisites
 
 1. Python 3.7
