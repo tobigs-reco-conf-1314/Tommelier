@@ -55,7 +55,7 @@
 ## 2. 모델
 
   - [Neural MF](https://arxiv.org/pdf/1708.05031.pdf)
-  - [DeepFM]()
+  - [DeepFM](https://arxiv.org/pdf/1703.04247.pdf)
   - [DCN](https://arxiv.org/pdf/2008.13535.pdf)
   - [GCN]()
 
@@ -67,7 +67,9 @@
 |DCN|Cross(2) + Deep(512, 256, 128, 64)|1000(78)|0.9582|0.93|오진석|
 |DCN|Cross(1) + Deep(256, 128, 64)|1000(276)|0.9528|0.92|오진석|
 |DCN|Cross(1) + Deep(192, 192)|1000(161)|0.9520|0.92|오진석|
-|   |     |     |     |     |     |
+|DeepFM|Embedding size(4)|100|0.87|0.8|장혜림|
+|DeepFM|Embedding size(20)|100|0.9168|0.845|정세영|
+|DeepFM|BN, Dropout<\br>Embedding size(32)|500(235)|0.9261|0.8494|정세영|
 |   |     |     |     |     |     |
 |   |     |     |     |     |     |
 
