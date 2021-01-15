@@ -20,11 +20,6 @@
 │   ├───preprocess.py
 │   └───dcn_preprocess_junyoung.py
 │   
-├── Data
-│   ├───train.json
-│   ├───test.json
-│   └───item.csv
-│   
 ├── Models
 │   ├───NeuralMF.py
 │   ├───DCN.py
@@ -37,31 +32,17 @@
 │   ├──DeepFM_main.ipynb
 │   └──GCN_main.ipynb
 │
-├── Params
-│   ├───NeuralMF
-│   │    └───
-│   ├───DCN
-│   │    ├──vocabularies.json
-│   │    └──DCN_weights.tf
-│   ├───DeepFM
-│   │    ├──
-│   │    └──
+
 ```
 
-## 1. 데이터
+## 1. Data
 
 프로젝트에서 대표적으로 다룬 데이터는 user meta, item meta, user-item rating 데이터입니다.
 <br>
-
-## 2. 모델
-
-  - [Neural MF](https://arxiv.org/pdf/1708.05031.pdf)
-  - [DeepFM](https://arxiv.org/pdf/1703.04247.pdf)
-  - [DCN](https://arxiv.org/pdf/2008.13535.pdf)
-  - [GCN]()
+자세한 명세는 [구글 스프레드 시트](https://docs.google.com/spreadsheets/d/1Myp9Oe9B3fByzJjSmSNaqxhyCgYKLTSYc0NgZUHcxUw/edit?usp=sharing)에서 확인 가능합니다.
 
 
-## 3. 결과
+## 2. Model
 
 |Model|Hyper Params|Epochs|Roc|Acc|담당자|
 |-----|--------|---|---|---|---|
@@ -75,9 +56,28 @@
 |   |     |     |     |     |     |
 
 
-## 4. 웹
+## 3. Web Demo
+
+> [웹 데모](http://tommelier.ml/)를 통해 초심자도 간단한 설문만 하면 와인을 추천받을 수 있습니다.
+
+
+
+|`Demo Screenshot`|
+|--|
+|<img src="https://user-images.githubusercontent.com/18041103/104782948-6be24a00-57c8-11eb-8ea9-2095d948411b.png" width=500 />|
+
+
+## 4. Model Reference
+
+  - [Neural MF](https://arxiv.org/pdf/1708.05031.pdf)
+  - [DeepFM](https://arxiv.org/pdf/1703.04247.pdf)
+  - [DCN](https://arxiv.org/pdf/2008.13535.pdf)
+  - [GCN]()
 
 
 
 ## 5. Contributors
+
+
+
 
