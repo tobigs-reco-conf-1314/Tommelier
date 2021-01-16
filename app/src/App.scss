@@ -1,0 +1,27 @@
+.App {
+	min-height: 100vh;
+}
+
+#root {
+	background-color: black;
+	color: white;
+}
+
+h1, h2, h3, h4, h5, span {
+	color: white;
+}
+
+td, th {
+	color: black;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 10px 0px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+  }
