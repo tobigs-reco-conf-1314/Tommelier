@@ -66,6 +66,7 @@
 ├── Models
 │   ├───NeuralMF.py
 │   ├───DCN.py
+│   ├───DeepFM.py
 │   └───GCN.py
 │   
 ├── Results
