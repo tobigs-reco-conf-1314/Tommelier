@@ -19,6 +19,10 @@
 
 ## 2. Model
 
+<img src = "Result1.png" width = 500px>
+
+
+
 |Model|Hyper Params|Epochs|Roc|Acc|담당자|
 |-----|--------|---|---|---|---|
 |DCN|Cross(2) + Deep(512, 256, 128, 64)|1000(78)|0.9582|0.93|오진석|
