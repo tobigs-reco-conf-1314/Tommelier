@@ -30,7 +30,7 @@
 |NeuralMF|Deep(256, 128, 64, 32)|100|0.8917|0.81|조상연|
 
 |Model|Hyper Params|Epochs|Recall|HitRate|담당자|
-|-----|--------|---|---|---|---|
+|-----|-------------|---|---|---|---|
 |SVD|||0.476|0.854|조상연|
 |GCN|Restart probability = 0.3      <br> Num random walks = 10 <br> Num neighbors = 3 <br> Hidden dims = 512     |500|0.466|0.916|신윤종|
 |GCN|Restart probability = 0.3      <br> Num random walks = 10 <br> Num neighbors = 10 <br> Hidden dims = 1024     |1000|0.619|0.932|신윤종|
