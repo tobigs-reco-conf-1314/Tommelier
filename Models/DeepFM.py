@@ -79,7 +79,7 @@ def preprocess(X_train, X_test, sparse_features, dense_features, list_features, 
 
 
 
-def model_train(y_train, y_test):
+def model_train(X_train, X_test, y_train, y_test, sparse_features, dense_features, list_features, id_features):
     # parameters
     BATCH_SIZE = 256
     EPOCHS = 500
