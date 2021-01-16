@@ -19,7 +19,7 @@
 
 ## 2. Model
 
-<img src = "result1.png" width = 500px>
+<img src = "Result1.png" width = 500px>
 
 <img src = "result2.png" width = 500px>
 
