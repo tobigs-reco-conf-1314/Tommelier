@@ -14,8 +14,6 @@ from keras.callbacks import EarlyStopping
 from sklearn.metrics import accuracy_score, roc_auc_score
 
 
-
-
 def list_to_str(feature):
     feature_str = []
     for i in range(len(feature)):
@@ -29,8 +27,6 @@ def id_to_int(feature):
     feature = feature.fillna(0)
     feature = feature.astype(int)
     return feature
-
-
 
 
 def preprocess(X_train, X_test, sparse_features, dense_features, list_features, id_features):
@@ -83,7 +79,6 @@ def preprocess(X_train, X_test, sparse_features, dense_features, list_features, 
 
 
 
-
 def model_train(y_train, y_test):
     # parameters
     BATCH_SIZE = 256
@@ -104,12 +99,4 @@ def model_train(y_train, y_test):
     print("test Auccuracy", round(accuracy_score(y_test.values, y_pred.round()), 4))
 
     return model, y_pred
-
-
-
-
-
-
-
-
 
