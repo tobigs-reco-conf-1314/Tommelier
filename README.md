@@ -24,24 +24,6 @@
 <img src = "result2.png" width = 500px>
 
 
-
-|Model|Hyper Params|Epochs|Roc|Acc|담당자|
-|-----|--------|---|---|---|---|
-|DCN|Cross(2) + Deep(512, 256, 128, 64)|1000(78)|0.9582|0.93|오진석|
-|DCN|Cross(1) + Deep(256, 128, 64)|1000(276)|0.9528|0.92|오진석|
-|DCN|Cross(1) + Deep(192, 192)|500(202)|0.9565|0.93|박준영|
-|DeepFM|Embedding size(4)|100|0.87|0.8|장혜림|
-|DeepFM|Embedding size(20)|100|0.9168|0.845|정세영|
-|DeepFM|BN, Dropout, Embedding size(32)|500(235)|0.9261|0.8494|정세영|
-|NeuralMF|Deep(256, 128, 64, 32)|100|0.8917|0.81|조상연|
-
-|Model|Hyper Params|Epochs|Recall|HitRate|담당자|
-|-----|-------------|---|---|---|---|
-|SVD|||0.476|0.854|조상연|
-|GCN|Restart probability = 0.3      <br> Num random walks = 10 <br> Num neighbors = 3 <br> Hidden dims = 512     |500|0.466|0.916|신윤종|
-|GCN|Restart probability = 0.3      <br> Num random walks = 10 <br> Num neighbors = 10 <br> Hidden dims = 1024     |1000|0.619|0.932|신윤종|
-|GCN|Restart probability = 0.3      <br> Num random walks = 10 <br> Num neighbors = 3 <br> Hidden dims = 1024     |1000|0.693|0.942|신윤종|
-
 ## 3. Web Demo
 
 > [웹 데모](http://tommelier.ml/)를 통해 초심자도 간단한 설문만 하면 와인을 추천받을 수 있습니다.
@@ -62,13 +44,16 @@
 
 ## 5. Contributors
 
-- 12기 신윤종
-- 13기 오진석
-- 13기 이지용
-- 13기 조상연
-- 14기 박준영
-- 14기 정세영
-- 14기 장혜림
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/csy1204"><br /><sub><b>조상연</b></sub></a><br /><a href="https://github.com/csy1204" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jinseock95"><img src="https://user-images.githubusercontent.com/41895063/96989102-2e22ac00-1560-11eb-84e4-0584c51bbe60.png" width="100px;" alt=""/><br /><sub><b>JinSeok Oh</b></sub></a><br /><a href="https://github.com/cryingjin/Shopping_GG/commits?author=jinseock95" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/cryingjin"><img src="https://user-images.githubusercontent.com/41895063/96989335-7fcb3680-1560-11eb-95d1-7cbb4fc4dd18.png" width="100px;" alt=""/><br /><sub><b>YeJin Lee</b></sub></a><br /><a href="https://github.com/cryingjin/Shopping_GG/commits?author=cryingjin" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jbeen2"><img src="https://user-images.githubusercontent.com/41895063/96989477-b0ab6b80-1560-11eb-9beb-64f5253ccb2a.png" width="100px;" alt=""/><br /><sub><b>JaeBeen Lee</b></sub></a><br /><a href="https://github.com/cryingjin/Shopping_GG/commits?author=jbeen2" title="Code">💻</a></td>
+
 
 ---------
 
