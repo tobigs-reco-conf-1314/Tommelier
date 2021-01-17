@@ -20,12 +20,24 @@
 
 ## 2. Model
 
+  - [Neural MF](https://arxiv.org/pdf/1708.05031.pdf)
+    -
+  - [DeepFM](https://arxiv.org/pdf/1703.04247.pdf)
+    - 
+    - 
+  - [Deep & Cross Network](https://arxiv.org/pdf/2008.13535.pdf)
+    - [오진석](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DCN_main.jinseok.ipynb)
+    - [박준영](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DCN_main_junyoung.ipynb)
+  - [GCN]()
+    - 
+
+
+## 3. Results
+
 <img width="700" alt="result1" src="https://user-images.githubusercontent.com/48677363/104843792-d4880e80-590f-11eb-860e-828d720cd0f9.png">
 <img width="700" alt="result2" src="https://user-images.githubusercontent.com/48677363/104844084-5f1d3d80-5911-11eb-8479-2254bac96e80.png">
 
-
-
-## 3. Web Demo
+## 4. Web Demo
 
 > [웹 데모](http://tommelier.ml/)를 통해 초심자도 간단한 설문만 하면 와인을 추천받을 수 있습니다.
 
@@ -33,14 +45,6 @@
 |`Demo Screenshot`|
 |--|
 |<img src="https://user-images.githubusercontent.com/18041103/104782948-6be24a00-57c8-11eb-8ea9-2095d948411b.png" width=500 />|
-
-
-## 4. Model Reference
-
-  - [Neural MF](https://arxiv.org/pdf/1708.05031.pdf)
-  - [DeepFM](https://arxiv.org/pdf/1703.04247.pdf)
-  - [DCN](https://arxiv.org/pdf/2008.13535.pdf)
-  - [GCN]()
 
 
 ## 5. Contributors
