@@ -1,6 +1,7 @@
 # Tommelier
 
-<img src = "투믈리에.jpg" width = 700px>
+![투믈리에](https://user-images.githubusercontent.com/48677363/104844095-73f9d100-5911-11eb-8589-bf1eb1ea9df6.jpg)
+
 
 투믈리에는 와인 추천 시스템으로, 와잘알(와인을 잘 아는 사람)과 와못알(와인을 잘 모르는 사람)이라는 사용자의 특징을 고려한 추천 시스템입니다.
 <br>
@@ -19,10 +20,9 @@
 
 ## 2. Model
 
-<img width="900" alt="result1" src="https://user-images.githubusercontent.com/48677363/104843792-d4880e80-590f-11eb-860e-828d720cd0f9.png">
+<img width="700" alt="result1" src="https://user-images.githubusercontent.com/48677363/104843792-d4880e80-590f-11eb-860e-828d720cd0f9.png">
+<img width="700" alt="result2" src="https://user-images.githubusercontent.com/48677363/104844084-5f1d3d80-5911-11eb-8479-2254bac96e80.png">
 
-
-<img src = "result2.png" width = 900px>
 
 
 ## 3. Web Demo
