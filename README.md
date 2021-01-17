@@ -4,7 +4,7 @@
 
 투믈리에는 와인 추천 시스템으로, 와잘알(와인을 잘 아는 사람)과 와못알(와인을 잘 모르는 사람)이라는 사용자의 특징을 고려한 추천 시스템입니다.
 <br>
-투믈리에는 [투빅스 11회 컨퍼런스](https://www.youtube.com/channel/UCo1MBYfcQ1P9UOGqgW4GNTQ/featured)에서 소개되었으며, [발표 자료]()와 [웹 페이지](http://tommelier.ml/)를 통해서 더욱 자세한 사항을 확인할 수 있습니다.
+투믈리에는 [투빅스 11회 컨퍼런스](https://www.youtube.com/watch?v=YZIZwbRkfSA&t=13s)에서 소개되었으며, [발표 자료](https://drive.google.com/file/d/1ULj_U7iKPP_M-ubLHMTgSmxigNSJdmvY/view)와 [웹 페이지](http://tommelier.ml/)를 통해서 더욱 자세한 사항을 확인할 수 있습니다.
 <br>
 와인 추천을 위해 사용된 데이터는 [vivino](https://www.vivino.com/FR/en/)에서 크롤링을 통해 수집하였습니다.
 
