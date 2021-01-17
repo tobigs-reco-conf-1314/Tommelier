@@ -14,7 +14,7 @@ import tensorflow as tf
 
 
 
-def DCN_preprocessing(df, str_features, int_features, df_type = 'train'):
+def DCN(df, str_features, int_features, df_type = 'train'):
     
     feature_names = str_features + int_features
 
@@ -26,16 +26,17 @@ def DCN_preprocessing(df, str_features, int_features, df_type = 'train'):
         # grapes_id를 embedding 하기 위한.. 모든 grapes_id를 emb하고 싶었으나 너무 어려움..ㅠ
         df['grapes_id'] = df['grapes_id'].apply(lambda x : '[0]' if x == '0' else x)
         df['grapes_id'] = df['grapes_id'].apply(lambda x : ast.literal_eval(x))
-        df['grapes_id'] = df['grapes_id'].apply(lambda x : x[0])
         
-        if 'user_note' in str_features:
+        if 'user_note_TF' in str_features:
+
             # user_note 유무와 user_note 길이 feature 생성
             df['user_note_TF'] = df['user_note'].apply(lambda x :  0 if x == '' else 1)
             df['user_note_len'] = df['user_note'].apply(lambda x : len(x))
             
             # 2번째 grapes_id feature 생성
-            df['grapes_id2'] = df['grapes_id'].apply(lambda x: x[1] if len(x) > 1 else '0')
-
+            df['grapes_id2'] = df['grapes_id'].apply(lambda x: x[1] if len(x) > 1 else 0)
+            df['grapes_id'] = df['grapes_id'].apply(lambda x : x[0])
+  
         for f in str_features:
             if df[f].dtype == float:
                 df[f] = df[f].astype(int)
