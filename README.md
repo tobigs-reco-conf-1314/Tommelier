@@ -72,19 +72,21 @@
 ├── README.md
 ├── Preprocess
 │   ├───crawling.py
-│   ├───preprocess.py
-│   └───dcn_preprocess_junyoung.py
+│   └───preprocess.py
 │   
 ├── Models
 │   ├───NeuralMF.py
 │   ├───DCN.py
 │   ├───DeepFM.py
-│   └───GCN.py
+│   └───GCN
+│       ├──
+│       └──
 │   
 ├── Results
 │   ├──NMF_main.ipynb
-│   ├──DCN_main.ipynb
+│   ├──DCN_main_jinseok.ipynb
 │   ├──DCN_main_junyoung.ipynb
+│   ├──DeepFM_main.ipynb
 │   ├──DeepFM_main.ipynb
 │   └──GCN_main.ipynb
 │
