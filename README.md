@@ -20,11 +20,11 @@
 
 ## 2. Model
 
-  - [Neural MF](https://arxiv.org/pdf/1708.05031.pdf)
+  - [Neural Matrix Factorization](https://arxiv.org/pdf/1708.05031.pdf)
   
     - 조상연
     
-  - [DeepFM](https://arxiv.org/pdf/1703.04247.pdf)
+  - [Deep Factorization Machine](https://arxiv.org/pdf/1703.04247.pdf)
   
     - 장혜림
     - 정세영
@@ -34,7 +34,7 @@
     - [오진석](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DCN_main.jinseok.ipynb)
     - [박준영](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DCN_main_junyoung.ipynb)
     
-  - [GCN]()
+  - [Graph Convolutional Network]()
   
     - 신윤종
 
