@@ -23,7 +23,7 @@
   - [Neural MF](https://arxiv.org/pdf/1708.05031.pdf)
     -
   - [DeepFM](https://arxiv.org/pdf/1703.04247.pdf)
-    - 
+    - 장혜림
     - 
   - [Deep & Cross Network](https://arxiv.org/pdf/2008.13535.pdf)
     - [오진석](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DCN_main.jinseok.ipynb)
