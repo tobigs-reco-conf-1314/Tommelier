@@ -19,7 +19,8 @@
 
 ## 2. Model
 
-<img src = "Result1.png" width = 900px>
+<img width="900" alt="result1" src="https://user-images.githubusercontent.com/48677363/104843792-d4880e80-590f-11eb-860e-828d720cd0f9.png">
+
 
 <img src = "result2.png" width = 900px>
 
