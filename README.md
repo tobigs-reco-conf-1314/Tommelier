@@ -20,21 +20,21 @@
 
 ## 2. Model
 
-  - [Neural Matrix Factorization](https://arxiv.org/pdf/1708.05031.pdf)
+  - [Neural Matrix Factorization](https://arxiv.org/pdf/1708.05031.pdf)(2017, Xiangnan He)
   
     - 조상연
     
-  - [Deep Factorization Machine](https://arxiv.org/pdf/1703.04247.pdf)
+  - [Deep Factorization Machine](https://arxiv.org/pdf/1703.04247.pdf)(2017, Huifeng Guo)
   
     - 장혜림
     - 정세영
     
-  - [Deep & Cross Network](https://arxiv.org/pdf/2008.13535.pdf)
+  - [Deep & Cross Network](https://arxiv.org/pdf/2008.13535.pdf)(2020, Ruoxi Wang)
   
     - [오진석](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DCN_main.jinseok.ipynb)
     - [박준영](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DCN_main_junyoung.ipynb)
     
-  - [Graph Convolutional Network]()
+  - [Graph Convolutional Network]()()
   
     - 신윤종
 
