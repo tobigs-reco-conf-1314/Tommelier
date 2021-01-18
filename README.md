@@ -11,14 +11,14 @@
 
 
 
-## 1. Data
+## Data
 
 프로젝트에서 대표적으로 다룬 데이터는 user meta, item meta, user-item rating 데이터입니다.
 <br>
 자세한 명세는 [구글 스프레드 시트](https://docs.google.com/spreadsheets/d/1Myp9Oe9B3fByzJjSmSNaqxhyCgYKLTSYc0NgZUHcxUw/edit?usp=sharing)에서 확인 가능합니다.
 
 
-## 2. Model
+## Model
 
   - **Neural Matrix Factorization** - [Neural Collaboratice Filtering, 2017, Xiangnan He](https://arxiv.org/pdf/1708.05031.pdf)
   
@@ -41,12 +41,12 @@ Recommender Systems, 2018, Ying, R](https://arxiv.org/pdf/1806.01973.pdf)
     - 신윤종
 
 
-## 3. Results
+## Results
 
 <img width="700" alt="result1" src="https://user-images.githubusercontent.com/48677363/104843792-d4880e80-590f-11eb-860e-828d720cd0f9.png">
 <img width="700" alt="result2" src="https://user-images.githubusercontent.com/48677363/104844084-5f1d3d80-5911-11eb-8479-2254bac96e80.png">
 
-## 4. Web Demo
+## Web Demo
 
 > [웹 데모](http://tommelier.ml/)를 통해 초심자도 간단한 설문만 하면 와인을 추천받을 수 있습니다.
 
@@ -56,7 +56,7 @@ Recommender Systems, 2018, Ying, R](https://arxiv.org/pdf/1806.01973.pdf)
 |<img src="https://user-images.githubusercontent.com/18041103/104782948-6be24a00-57c8-11eb-8ea9-2095d948411b.png" width=500 />|
 
 
-## 5. Contributors
+## Contributors
 
 - 조상연
 - 이지용
