@@ -20,23 +20,23 @@
 
 ## 2. Model
 
-  - **Neural Matrix Factorization** - [Neural Collaboratice Filtering](https://arxiv.org/pdf/1708.05031.pdf), 2017, Xiangnan He
+  - **Neural Matrix Factorization** - [Neural Collaboratice Filtering, 2017, Xiangnan He](https://arxiv.org/pdf/1708.05031.pdf)
   
     - 조상연
     
-  - **Deep Factorization Machine** - [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](https://arxiv.org/pdf/1703.04247.pdf), 2017, Huifeng Guo)
+  - **Deep Factorization Machine** - [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction, 2017, Huifeng Guo](https://arxiv.org/pdf/1703.04247.pdf)
   
     - 장혜림
     - 정세영
     
   - **Deep & Cross Network** - [DCN V2: Improved Deep & Cross Network and Practical Lessons
-for Web-scale Learning to Rank Systems](https://arxiv.org/pdf/2008.13535.pdf)(2020, Ruoxi Wang)
+for Web-scale Learning to Rank Systems, 2020, Ruoxi Wang](https://arxiv.org/pdf/2008.13535.pdf)
   
     - [오진석](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DCN_main.jinseok.ipynb)
     - [박준영](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DCN_main_junyoung.ipynb)
     
   - **Graph Convolutional Network** - [Graph Convolutional Neural Networks for Web-Scale
-Recommender Systems](https://arxiv.org/pdf/1806.01973.pdf)(2018, Ying, R)
+Recommender Systems, 2018, Ying, R](https://arxiv.org/pdf/1806.01973.pdf)
   
     - 신윤종
 
