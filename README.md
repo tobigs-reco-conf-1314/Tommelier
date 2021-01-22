@@ -22,12 +22,12 @@
 
   - **Neural Matrix Factorization** - [Neural Collaboratice Filtering, 2017, Xiangnan He](https://arxiv.org/pdf/1708.05031.pdf)
   
-    - 조상연
+    - [조상연](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/NeuralMF_main.ipynb)
     
   - **Deep Factorization Machine** - [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction, 2017, Huifeng Guo](https://arxiv.org/pdf/1703.04247.pdf)
   
-    - 장혜림
-    - 정세영
+    - [장혜림](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DeepFM_hyerim.ipynb)
+    - [정세영](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/DeepFM_seyeong.ipynb)
     
   - **Deep & Cross Network** - [DCN V2: Improved Deep & Cross Network and Practical Lessons
 for Web-scale Learning to Rank Systems, 2020, Ruoxi Wang](https://arxiv.org/pdf/2008.13535.pdf)
@@ -38,7 +38,7 @@ for Web-scale Learning to Rank Systems, 2020, Ruoxi Wang](https://arxiv.org/pdf/
   - **Graph Convolutional Network** - [Graph Convolutional Neural Networks for Web-Scale
 Recommender Systems, 2018, Ying, R](https://arxiv.org/pdf/1806.01973.pdf)
   
-    - 신윤종
+    - [신윤종](https://github.com/tobigs-reco-conf-1314/Tommelier/blob/main/Results/GCN_yoonjong.ipynb)
 
 
 ## Results
