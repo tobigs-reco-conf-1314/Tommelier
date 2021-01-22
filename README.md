@@ -79,8 +79,8 @@
 │   ├───DCN.py
 │   ├───DeepFM.py
 │   └───GCN
-│       ├──
-│       └──
+│       ├──model.py
+│       └──...
 │   
 ├── Results
 │   ├──NMF_main.ipynb
