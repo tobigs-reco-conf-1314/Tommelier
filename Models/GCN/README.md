@@ -3,10 +3,10 @@ GCN for wine recommendation
 제 11회 투빅스 컨퍼런스 '투믈리에'조에서 준비한 와인 추천 시스템에 적용한 Graph Convolution Network 
 DGL 라이브러리를 바탕으로 구현했으며, PinSAGE 예제에서 프로젝트에 맞게 수정하였습니다.
 
-GCN paper: https://arxiv.org/pdf/1609.02907.pdf
-PinSAGE paper: https://arxiv.org/pdf/1806.01973.pdf
-DGL: https://docs.dgl.ai/#
-DGL PinSAGE example: https://github.com/dmlc/dgl/tree/master/examples/pytorch/pinsage
+GCN paper: https://arxiv.org/pdf/1609.02907.pdf<br>
+PinSAGE paper: https://arxiv.org/pdf/1806.01973.pdf<br>
+DGL: https://docs.dgl.ai/#<br>
+DGL PinSAGE example: https://github.com/dmlc/dgl/tree/master/examples/pytorch/pinsage<br>
 
 ## Requirements
 
