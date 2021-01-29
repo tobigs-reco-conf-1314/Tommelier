@@ -15,7 +15,7 @@
 
 프로젝트에서 대표적으로 다룬 데이터는 user meta, item meta, user-item rating 데이터입니다.
 <br>
-자세한 명세는 [구글 스프레드 시트](https://docs.google.com/spreadsheets/d/1Myp9Oe9B3fByzJjSmSNaqxhyCgYKLTSYc0NgZUHcxUw/edit?usp=sharing)에서 확인 가능합니다.
+자세한 명세는 [구글 스프레드 시트](https://docs.google.com/spreadsheets/d/1Myp9Oe9B3fByzJjSmSNaqxhyCgYKLTSYc0NgZUHcxUw/edit?usp=sharing)에서 확인 가능하며 데이터는 [drive](https://drive.google.com/drive/folders/1d9N9dCvHahfT-_v24HoqI9NZPzHl36Xf?usp=sharing)에서 다운로드 가능합니다.
 
 
 ## Model
@@ -86,9 +86,9 @@
 │   ├──NMF_main.ipynb
 │   ├──DCN_main_jinseok.ipynb
 │   ├──DCN_main_junyoung.ipynb
-│   ├──DeepFM_main.ipynb
-│   ├──DeepFM_main.ipynb
-│   └──GCN_main.ipynb
+│   ├──DeepFM_seyeong.ipynb
+│   ├──DeepFM_hyerim.ipynb
+│   └──GCN_yoonjong.ipynb
 │
 
 ```
